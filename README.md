@@ -22,3 +22,13 @@ Will build a CRUD todo single page application with Node, Express, Angular, and 
 8) Servers >> PostgreSQL >> Databases >> Create New Database
 
 9) in database.js edit the connectionString variable/constant to 'postgres://username:password@localhost:5432/todo';
+
+10) refresh the table of your new Database in pqAdmin
+
+11) create the config.js file in your directory with this content:
+
+``` javascript
+const connectionString = 'postgres://postgres:firew0rks@localhost:5432/todo';
+module.exports = connectionString;
+
+```
