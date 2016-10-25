@@ -16,3 +16,9 @@ Will build a CRUD todo single page application with Node, Express, Angular, and 
 5) create models/database.js
 
 6) node models/database.js to see log from console !
+
+7) open pgAdmin
+
+8) Servers >> PostgreSQL >> Databases >> Create New Database
+
+9) in database.js edit the connectionString variable/constant to 'postgres://username:password@localhost:5432/todo';
