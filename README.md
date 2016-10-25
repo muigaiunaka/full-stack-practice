@@ -32,3 +32,11 @@ const connectionString = 'postgres://postgres:firew0rks@localhost:5432/todo';
 module.exports = connectionString;
 
 ```
+
+At this point, database.js should only include this code:
+```javascript
+const pg = require('pg');
+const path = require('path');
+const connectionString = process.env.DATABASE_URL || require(path.join(__dirname, '../', '../', 'config'));
+
+```
