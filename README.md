@@ -40,3 +40,5 @@ const path = require('path');
 const connectionString = process.env.DATABASE_URL || require(path.join(__dirname, '../', '../', 'config'));
 
 ```
+
+After editing the index.js file, install [cURL for Windows](http://www.oracle.com/webfolder/technetwork/tutorials/obe/cloud/objectstorage/restrict_rw_accs_cntainers_REST_API/files/installing_curl_command_line_tool_on_windows.html)
