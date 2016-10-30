@@ -45,3 +45,5 @@ After editing the index.js file, install [cURL for Windows](http://www.oracle.co
 
 
 Got stuck at curl Install, will pick back up again later!....
+
+Learned Git Bash has curl already, can run Git Bash as admin to access my directories. Remember to make sure that pgadmin is running and start server with npm start.
